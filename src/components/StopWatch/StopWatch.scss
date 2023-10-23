@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: white;
+  }
+  .stopwatch {
+    width: 200px;
+    height: 200px;
+    border: 3px solid white;
+    border-radius: 50%;
+  }
+  .time-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+  }
+  .time{
+    margin-top: 87px;
+  }
+  }
+  
+    
+    button:nth-child(1) {
+      border: none;
+      width: 72px;
+      height: 73px;
+      text-align: end;
+      background-color: green;
+      color: white;
+      clip-path: polygon(9% 28%, 100% 28%, 100% 97%, 71% 86%, 39% 66%);
+      cursor: pointer;
+    }
+    button:nth-child(2) {
+      background-color: red;
+      width: 45px;
+      color: white;
+      padding-top: 8px;
+      padding-bottom: 28px;
+      border: none;
+      cursor: pointer;
+    }
+    button:nth-child(3) {
+      width: 72px;
+      height: 73px;
+      border: none;
+      text-align: start;
+      background-color: rgb(111, 62, 13);
+      color: white;
+      clip-path: polygon(0% 27%, 103% 27%, 94% 26%, 53% 72%, -81% 140%);
+      cursor: pointer;
+    }
+  
